@@ -1,6 +1,7 @@
 public class LeapYear {
     public static void main(String[] args) {
         int year = 1600;
+        System.out.println("This will validate the Leap Year");
         if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
             System.out.println("A Leap year " + year);
         } else {
