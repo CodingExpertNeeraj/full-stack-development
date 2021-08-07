@@ -3,8 +3,8 @@ public class DoWhileDemo {
         int x = 1;
         do{
             System.out.println(x);
-                x+2;
-        }Wwhile(x<=20);
+                x++;
+        }Wwhile(x<=10);
     }
         
     }
