@@ -1,8 +1,16 @@
+import java.util.Scanner;
 public class Numbers {
     public static void main(String[] args) {
-        int i = 20;
-        int j = 30;
-        System.out.print(i + j);
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter a number");
+       int a = scan.nextInt();
+
+       System.out.println("Enter a another number");
+       int b = scan.nextInt();
+
+       System.out.println(a + b);
+
+
     }
     
 }
