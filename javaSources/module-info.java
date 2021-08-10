@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author lenovo
- *
- */
-module java {
-}
