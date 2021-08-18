@@ -3,7 +3,7 @@ class IfElse {
   public static void main(String[] args) {
     int marksObtained, passingMarks;
    
-    passingMarks = 40;
+    passingMarks = 33;
    
     Scanner input = new Scanner(System.in);
    
