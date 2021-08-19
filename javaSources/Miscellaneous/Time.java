@@ -1,37 +1,19 @@
-import jdk.internal.module.SystemModuleFinders;
+import java.util.Scanner;
 
-// import java.util.Scanner;
-// class Time {
-//   public static void main(String[] args) {
-//     int 4pm, 6pm;
-
-   
-//     Scanner input = new Scanner(System.in);
-   
-//     System.out.println("Input marks scored by you");
-   
-//     marksObtained = input.nextInt();
-   
-//     if (marksObtained >= passingMarks) {
-//       System.out.println("You passed the exam.");
-//     }
-//     else {
-//       System.out.println("Unfortunately, you failed to pass the exam.");
-//     }
-//   }
-// }
-
+import java. util.Scanner;
 public class Time{
     public static void main(String[] args) {
-        int x = 4pm;
-        int y = 6pm;
-        System.out.println("enter the time");
+        int x = 4;
+        int y = 6;
 
-    }
-    if{ x < 3
-    System.out.println("good afternoon")
-    }
-    else {
-     System.out.println("good evening")
+        Scanner myScanner = new Scanner (System.in);
+        System.out.println("pls enter the time");
+        x = myScanner.nextInt();
+        if(x > 3 ){
+            System.out.println("Good evening sir");
+        }
+        else{
+            System.out.println("Good afternoon sir");
+        }
     }
 }
