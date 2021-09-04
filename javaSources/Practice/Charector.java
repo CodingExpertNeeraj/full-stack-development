@@ -1,20 +1,11 @@
 public class Charector {
     public static void main(String[] args) {
-        
-        int string = 0;
-        {
-            System.out.println("N");
-            System.out.println("e");
-            System.out.println("e");
-            System.out.println("r");
-            System.out.println("a");
-            System.out.println("j");
- 
- 
- 
- 
- 
+        String var1 = "Neeraj";
+        for( int i =0; i< var1.length();i++ ){
+            System.out.println(var1.charAt(i));
         }
+                
+        
     }
     
 }
