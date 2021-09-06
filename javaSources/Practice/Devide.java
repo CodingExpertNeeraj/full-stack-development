@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Divide {
+public class Devide {
     public static void main(String[] args) {
         Scanner dvd = new Scanner(System.in);
         System.out.println("Enter a Number");
@@ -12,8 +12,6 @@ public class Divide {
 }
 
 
-// var x ="ITI";
-// var y = ""
 
 
 

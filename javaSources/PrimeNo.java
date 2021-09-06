@@ -1,7 +1,7 @@
 class PrimeNo{
             public static void main(String args[])
 	{
-	int no =7;
+	int no =81;
 	int temp=0;
 	for(int i =2; i<=no-1;i++)
 	{
@@ -15,7 +15,8 @@ class PrimeNo{
 		System.out.println(no+"is prime no");
 		}
 		else{
-		System.out.println(no+"is not prime no.")}
+		System.out.println(no+"is not prime no.");
+	}
 }
 }
 
