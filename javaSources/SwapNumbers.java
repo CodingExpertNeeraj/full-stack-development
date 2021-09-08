@@ -10,8 +10,8 @@ public class SwapNumbers {
       a=b;
       b = c;
 
-      System.out.println(a); 
-      System.out.println(b);
+      System.out.println("a: "+a); 
+      System.out.println("b:"+b);
 
 
     }
