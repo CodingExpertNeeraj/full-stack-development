@@ -5,7 +5,7 @@ class Prework
             do{
                 System.out.println(x);
                     i++;
-            }Wwhile(i<=10);
+            } while(i<=10);
         }
             
         }
