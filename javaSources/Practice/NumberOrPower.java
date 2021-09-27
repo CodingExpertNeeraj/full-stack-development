@@ -10,4 +10,5 @@ public class NumberOrPower {
         y = ob.nextInt();
         System.out.println(x*y);
     }
+    
 }
