@@ -12,6 +12,7 @@ public class EvenOrOdd {
         else{
             System.out.println("number is even");
         }
+        System.out.println("This is odd - even program");
 
     }
 }
