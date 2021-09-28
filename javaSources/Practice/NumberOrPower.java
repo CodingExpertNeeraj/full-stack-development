@@ -8,7 +8,7 @@ public class NumberOrPower {
         x = ob.nextInt();
         System.out.println("Enter power");
         y = ob.nextInt();
-        System.out.println(Math.pow(2, 3));
+        System.out.println(Math.pow(x,y));
     }
     
 }
