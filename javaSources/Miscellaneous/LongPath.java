@@ -48,10 +48,10 @@ public class LongPath {
         root.leftnode.leftnode.leftnode = newNode(5);
         
         // 100
-   //	    /  \
-   //	 20    130
-   //   /\     /
-   //	10 50  110
+   //	  /   \
+   //  20      130
+   //   /\    /
+   //10  50 110
 //  	/
 //	   5 
         ArrayList<Integer> output = FindLongestPath(root);
